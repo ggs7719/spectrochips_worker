@@ -47,6 +47,7 @@ This files contents are outlined below.
   width: 180px;
   text-align: center;
   background: #f6b60b;
+  border-radius: 10px;
   display: block;
   border: 0;
   color: #222222;
@@ -217,7 +218,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   text-align: center;
   height: 24px;
   width: 24px;
-  border-radius: 50%;
+  border-radius: 10px;
   margin-left: 10px;
 }
 .top_header_area .social_nav li a i {
@@ -255,7 +256,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /* Header Aera */
 .header_aera {
   background: #fff;
-  border-radius: 0;
+  border-radius: 10px;
   border: 0;
   margin: 0;
   width: 100%;
@@ -269,7 +270,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   transition: all 300ms linear 0s;
 }
 .header_aera .searchForm .input-group-addon {
-  border-radius: 0;
+  border-radius: 10px;
   border: none;
   font-size: 14px;
   padding: 0 45px;
@@ -280,7 +281,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .header_aera .searchForm .form-control {
   height: 79px;
   padding: 0 15px;
-  border-radius: 0;
+  border-radius: 10px;
   border: none;
   color: #fff;
   background: #f6b60b;
@@ -305,7 +306,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   border-bottom: 1px solid transparent;
 }
 .header_aera .navbar-header .navbar-brand {
-  padding-top: 39px;
+  padding-top: 20px;
 }
 .header_aera .navbar-header .navbar-brand img {
   max-width: 100%;
@@ -339,7 +340,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .header_aera .navbar-collapse .navbar-nav.navbar-right li.submenu ul {
   border: none;
   box-shadow: none;
-  border-radius: 0px;
+  border-radius: 10px;
   min-width: 190px;
   transition: all 500ms ease-in-out;
   background: #f6b60b;
@@ -437,7 +438,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   height: 100%;
 }
 .slider_area .slider_inner .camera_caption div {
-  background: #00000030;
+  background: #00000060;
   position: absolute;
   width: 100%;
   text-align: center;
@@ -467,9 +468,10 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .slider_area .slider_inner .camera_caption div a {
   font: 700 18px/59px "Roboto", sans-serif;
-  width: 180px;
+  width: 130px;
   text-align: center;
   background: #f6b60b;
+  border-radius: 10px;
   display: block;
   text-shadow: none;
   margin: 0 auto;
@@ -567,7 +569,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   content: "";
   position: absolute;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   left: 0;
   right: 0;
   bottom: 0;
@@ -650,7 +652,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   height: 8px;
   width: 100%;
   overflow: visible;
-  border-radius: 0;
+  border-radius: 10px;
   position: relative;
   margin-bottom: 40px;
 }
@@ -1276,7 +1278,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   transition: all 300ms linear 0s;
 }
 .featured_works .featured_gallery .gallery_iner .gallery_hover a {
-  width: 200px;
+  width: 150px;
   font: 400 14px/60px "Roboto", sans-serif;
   text-align: center;
   display: block;
